@@ -22,6 +22,7 @@ const App = () => {
           <option value="blue">Blue</option>
           <option value="purple">Purple</option>
           <option value="orange">Orange</option>
+          <option value="turquoise">Turquoise</option>
         </select>
       </header>
     </div>
