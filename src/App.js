@@ -23,6 +23,7 @@ const App = () => {
           <option value="purple">Purple</option>
           <option value="orange">Orange</option>
           <option value="turquoise">Turquoise</option>
+          <option value="gray">Gray</option>
         </select>
       </header>
     </div>
