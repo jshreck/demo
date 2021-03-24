@@ -2,7 +2,7 @@ import "./App.css";
 import { useState } from "react";
 
 const App = () => {
-  const [color, setColor] = useState("white");
+  const [color, setColor] = useState("maroon");
 
   const handleChange = (event) => {
     setColor(event.target.value);
@@ -16,7 +16,7 @@ const App = () => {
         ></div>
         <br />
         <select value={color} onChange={handleChange}>
-          <option value="white">White</option>
+          <option value="maroon">Maroon</option>
           <option value="pink">Pink</option>
           <option value="red">Red</option>
           <option value="blue">Blue</option>
